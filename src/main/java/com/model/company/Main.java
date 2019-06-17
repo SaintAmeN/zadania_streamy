@@ -81,13 +81,13 @@ public class Main {
                 new Purchase(productFlour, LocalDate.of(2018, 2, 13), 10, UNIT.KILOGRAM),
                 new Purchase(productFlour, LocalDate.of(2018, 2, 20), 10, UNIT.KILOGRAM),
                 new Purchase(productFlour, LocalDate.of(2018, 2, 27), 10, UNIT.KILOGRAM),
-                new Purchase(productFlour, LocalDate.of(2018, 2, 30), 10, UNIT.KILOGRAM),
+                new Purchase(productFlour, LocalDate.of(2018, 2, 28), 10, UNIT.KILOGRAM),
                 new Purchase(productSugar, LocalDate.of(2018, 2, 6), 10, UNIT.KILOGRAM),
                 new Purchase(productSugar, LocalDate.of(2018, 2, 13), 10, UNIT.KILOGRAM),
                 new Purchase(productSugar, LocalDate.of(2018, 2, 20), 10, UNIT.KILOGRAM),
                 new Purchase(productSugar, LocalDate.of(2018, 2, 27), 10, UNIT.KILOGRAM),
-                new Purchase(productSugar, LocalDate.of(2018, 2, 30), 10, UNIT.KILOGRAM),
-                new Purchase(productChocolate, LocalDate.of(2018, 2, 30), 25, UNIT.KILOGRAM)
+                new Purchase(productSugar, LocalDate.of(2018, 2, 28), 10, UNIT.KILOGRAM),
+                new Purchase(productChocolate, LocalDate.of(2018, 2, 28), 25, UNIT.KILOGRAM)
         )));
 
         Company companyTheOffice = new Company("Dunder Mifflin", "Detroit", 17, new ArrayList<>(Arrays.asList(
@@ -180,8 +180,8 @@ public class Main {
                 new Purchase(productPaper, LocalDate.of(2018, 2, 26), 13.0, UNIT.UNIT),
                 new Purchase(productPaper, LocalDate.of(2018, 2, 27), 20.0, UNIT.UNIT),
                 new Purchase(productPaper, LocalDate.of(2018, 2, 28), 20.0, UNIT.UNIT),
-                new Purchase(productPaper, LocalDate.of(2018, 2, 29), 20.0, UNIT.UNIT),
-                new Purchase(productPaper, LocalDate.of(2018, 2, 30), 20.0, UNIT.UNIT)
+                new Purchase(productPaper, LocalDate.of(2018, 2, 28), 20.0, UNIT.UNIT),
+                new Purchase(productPaper, LocalDate.of(2018, 2, 28), 20.0, UNIT.UNIT)
         )));
 
         Company transporting = new Company("Take me home", "London", 5, new ArrayList<>(Arrays.asList(
@@ -219,7 +219,7 @@ public class Main {
                 new Purchase(productFuelGasoline, LocalDate.of(2018, 2, 23), 327.58, UNIT.UNIT),
                 new Purchase(productFuelGasoline, LocalDate.of(2018, 2, 25), 317.44, UNIT.UNIT),
                 new Purchase(productFuelGasoline, LocalDate.of(2018, 2, 27), 332.11, UNIT.UNIT),
-                new Purchase(productFuelGasoline, LocalDate.of(2018, 2, 29), 325.13, UNIT.UNIT)
+                new Purchase(productFuelGasoline, LocalDate.of(2018, 2, 28), 325.13, UNIT.UNIT)
         )));
 
         Company companyTonysHardware = new Company("Tony's hardware", "Detroit", 2, new ArrayList<>(Arrays.asList(
@@ -229,7 +229,7 @@ public class Main {
                 new Purchase(productFord, LocalDate.of(2018, 2, 20), 2, UNIT.UNIT),
                 new Purchase(productFuelGasoline, LocalDate.of(2018, 2, 20), 70.0, UNIT.UNIT),
                 new Purchase(productPaper, LocalDate.of(2018, 1, 13), 20.0, UNIT.UNIT),
-                new Purchase(productFuelGasoline, LocalDate.of(2018, 2, 30), 35.0, UNIT.UNIT)
+                new Purchase(productFuelGasoline, LocalDate.of(2018, 2, 28), 35.0, UNIT.UNIT)
         )));
 
         Company companyTailor = new Company("Tailor Swift", "New York City", 3, new ArrayList<>(Arrays.asList(
@@ -258,7 +258,7 @@ public class Main {
                 new Purchase(productPaper, LocalDate.of(2018, 1, 20), 50.0, UNIT.UNIT),
                 new Purchase(productChocolate, LocalDate.of(2018, 2, 3), 20, UNIT.UNIT),
                 new Purchase(productCatering, LocalDate.of(2018, 2, 15), 91, UNIT.UNIT),
-                new Purchase(productCatering, LocalDate.of(2018, 2, 30), 91, UNIT.UNIT),
+                new Purchase(productCatering, LocalDate.of(2018, 2, 28), 91, UNIT.UNIT),
                 new Purchase(productOfficeRent, LocalDate.of(2018, 1, 1), 5, UNIT.UNIT),
                 new Purchase(productOfficeRent, LocalDate.of(2018, 2, 1), 5, UNIT.UNIT)
         )));
@@ -274,9 +274,9 @@ public class Main {
                 new Purchase(productCatering, LocalDate.of(2018, 1, 30), 76, UNIT.UNIT),
                 new Purchase(productCatering, LocalDate.of(2018, 2, 5), 76, UNIT.UNIT),
                 new Purchase(productCatering, LocalDate.of(2018, 2, 15), 76, UNIT.UNIT),
-                new Purchase(productPaper, LocalDate.of(2018, 2, 29), 50.0, UNIT.UNIT),
+                new Purchase(productPaper, LocalDate.of(2018, 2, 28), 50.0, UNIT.UNIT),
                 new Purchase(productChocolate, LocalDate.of(2018, 2, 1), 10, UNIT.UNIT),
-                new Purchase(productCatering, LocalDate.of(2018, 2, 30), 76, UNIT.UNIT),
+                new Purchase(productCatering, LocalDate.of(2018, 2, 28), 76, UNIT.UNIT),
                 new Purchase(productOfficeRent, LocalDate.of(2018, 1, 1), 4, UNIT.UNIT),
                 new Purchase(productOfficeRent, LocalDate.of(2018, 2, 1), 4, UNIT.UNIT)
         )));
@@ -292,7 +292,7 @@ public class Main {
                 new Purchase(productCatering, LocalDate.of(2018, 1, 30), 23, UNIT.UNIT),
                 new Purchase(productCatering, LocalDate.of(2018, 2, 5), 23, UNIT.UNIT),
                 new Purchase(productCatering, LocalDate.of(2018, 2, 15), 23, UNIT.UNIT),
-                new Purchase(productCatering, LocalDate.of(2018, 2, 30), 23, UNIT.UNIT),
+                new Purchase(productCatering, LocalDate.of(2018, 2, 28), 23, UNIT.UNIT),
                 new Purchase(productChocolate, LocalDate.of(2018, 2, 1), 10, UNIT.UNIT),
                 new Purchase(productOfficeRent, LocalDate.of(2018, 1, 1), 1, UNIT.UNIT),
                 new Purchase(productPaper, LocalDate.of(2018, 2, 3), 30.0, UNIT.UNIT),
@@ -349,7 +349,7 @@ public class Main {
                 new Purchase(productPC, LocalDate.of(2018, 1, 20), 500, UNIT.UNIT),
                 new Purchase(productFuelGasoline, LocalDate.of(2018, 2, 15), 500, UNIT.UNIT),
                 new Purchase(productFuelON, LocalDate.of(2018, 2, 15), 100, UNIT.UNIT),
-                new Purchase(productFuelGasoline, LocalDate.of(2018, 2, 30), 500, UNIT.UNIT)
+                new Purchase(productFuelGasoline, LocalDate.of(2018, 2, 28), 500, UNIT.UNIT)
         )));
 
         Company solwit = new Company("Solwit", "Kijev", 68, new ArrayList<>(Arrays.asList(
@@ -447,9 +447,9 @@ public class Main {
                 intelD,
                 intelGda,
                 intelKij
-
         ));
 
+        System.out.println(companies);
 
     }
 }
