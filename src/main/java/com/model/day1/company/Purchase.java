@@ -1,4 +1,4 @@
-package com.model.company;
+package com.model.day1.company;
 
 import lombok.AllArgsConstructor;
 

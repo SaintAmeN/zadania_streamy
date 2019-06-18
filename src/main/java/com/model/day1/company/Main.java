@@ -1,4 +1,4 @@
-package com.model.company;
+package com.model.day1.company;
 
 import java.time.LocalDate;
 import java.util.ArrayList;
@@ -27,8 +27,8 @@ public class Main {
         Product productPC = new Product("PC, Asus", 790.0);
         Product productCase = new Product("Case", 500.0);
         Product productSwitch = new Product("Network Switch", 130.0);
-        Product productCoffeA = new Product("Coffe, Arabica", 29.99);
-        Product productCoffeR = new Product("Coffe, Robusta", 39.99);
+        Product productCoffeA = new Product("Coffee, Arabica", 29.99);
+        Product productCoffeR = new Product("Coffee, Robusta", 39.99);
         Product productMug = new Product("Mug", 5.00);
         Product productPen = new Product("Pen", 0.99);
         Product productPencil = new Product("Pencil", 0.50);

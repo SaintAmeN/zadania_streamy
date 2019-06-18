@@ -1,4 +1,4 @@
-package com.model.parser;
+package com.model.day1.parser;
 
 public class Main {
     public static void main(String[] args) {

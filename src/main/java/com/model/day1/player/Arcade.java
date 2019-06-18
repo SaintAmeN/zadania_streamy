@@ -1,4 +1,4 @@
-package com.model.player;
+package com.model.day1.player;
 
 import lombok.AllArgsConstructor;
 
