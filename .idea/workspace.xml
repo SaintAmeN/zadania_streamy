@@ -2,28 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b4894e7a-cd32-46d8-9204-e93ad0674322" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/model/day2/coffeshop/Coffee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/model/day2/coffeshop/CoffeeAddition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/model/day2/coffeshop/CoffeeBeanType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/model/day2/coffeshop/CoffeeType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/model/day2/coffeshop/Magazyn.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/model/day2/coffeshop/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/model/day2/coffeshop/exceptions/InsufficientAdditions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/model/day2/coffeshop/exceptions/InsufficientCoffeBeans.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/model/day2/modelowanie/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/model/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarIssues.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarIssues.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/model/company/Company.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/model/day1/company/Company.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/model/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/model/day1/company/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/model/company/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/model/day1/company/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/model/company/Purchase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/model/day1/company/Purchase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/model/company/UNIT.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/model/day1/company/UNIT.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/model/game/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/model/day1/game/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/model/parser/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/model/day1/parser/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/model/player/Arcade.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/model/day1/player/Arcade.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/model/player/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/model/day1/player/Game.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/model/player/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/model/day1/player/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/model/player/Score.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/model/day1/player/Score.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/model/day1/player/Arcade.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/model/day1/player/Arcade.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/model/day1/player/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/model/day1/player/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/model/company/Company.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/model/company/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/model/company/Product.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/model/company/Purchase.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/model/company/UNIT.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/model/game/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/model/parser/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/model/player/Arcade.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/model/player/Game.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/model/player/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/model/player/Score.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -35,29 +30,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/model/day2/coffeshop/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/model/day2/modelowanie/Main.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/model/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="34" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/model/day1/company/Product.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+            <state relative-caret-position="320">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -66,10 +43,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/model/day1/player/Score.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/model/day1/company/Product.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+            <state relative-caret-position="345">
+              <caret line="25" selection-start-line="25" selection-end-line="25" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -100,6 +77,9 @@
       <find>BARBIE</find>
       <find>czas</find>
       <find>coffe</find>
+      <find>TRUE</find>
+      <find>comparingby</find>
+      <find>walk</find>
     </findStrings>
     <replaceStrings>
       <replace>2018, 2, 28</replace>
@@ -141,6 +121,9 @@
         <option value="$PROJECT_DIR$/src/main/java/com/model/coffeshop/Magazyn.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/model/modelowanie/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/model/day2/modelowanie/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/model/day1/player/Arcade.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/model/day1/player/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/model/Main.java" />
       </list>
     </option>
   </component>
@@ -151,10 +134,11 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="4">
-    <option name="x" value="-1" />
-    <option name="width" value="961" />
-    <option name="height" value="1053" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="2258" />
+    <option name="y" value="193" />
+    <option name="width" value="1914" />
+    <option name="height" value="1050" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -162,7 +146,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -203,7 +186,47 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="model" type="462c0819:PsiDirectoryNode" />
-              <item name="day2" type="462c0819:PsiDirectoryNode" />
+              <item name="day1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zadania" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zadania" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+              <item name="day1" type="462c0819:PsiDirectoryNode" />
+              <item name="company" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zadania" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zadania" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+              <item name="day1" type="462c0819:PsiDirectoryNode" />
+              <item name="game" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zadania" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zadania" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+              <item name="day1" type="462c0819:PsiDirectoryNode" />
+              <item name="parser" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zadania" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zadania" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+              <item name="day1" type="462c0819:PsiDirectoryNode" />
+              <item name="player" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="zadania" type="b2602c69:ProjectViewProjectNode" />
@@ -213,19 +236,19 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="model" type="462c0819:PsiDirectoryNode" />
               <item name="day2" type="462c0819:PsiDirectoryNode" />
-              <item name="coffeshop" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560758814341" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1561307438797" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -253,7 +276,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main (2)">
+  <component name="RunManager" selected="Application.Main (1)">
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.model.day1.player.Main" />
+      <module name="company" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.model.day1.player.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.Main" />
       <module name="company" />
@@ -295,7 +331,6 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
       </list>
@@ -313,12 +348,15 @@
       <updated>1560698255989</updated>
       <workItem from="1560698260026" duration="1028000" />
       <workItem from="1560739912573" duration="13631000" />
-      <workItem from="1560860539850" duration="3833000" />
+      <workItem from="1560860539850" duration="4483000" />
+      <workItem from="1561184375081" duration="1289000" />
+      <workItem from="1561304925915" duration="3112000" />
+      <workItem from="1561563884455" duration="878000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18492000" />
+    <option name="totallyTimeSpent" value="24421000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -330,9 +368,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="0" width="961" height="1053" extended-state="4" />
+    <frame x="1919" y="0" width="1922" height="1080" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25517994" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2625133" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -341,8 +379,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3290461" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3290461" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3290461" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39978564" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3290461" />
@@ -351,8 +389,8 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.3290461" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" />
-      <window_info anchor="bottom" id="SonarQube" order="13" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.3290461" />
+      <window_info anchor="bottom" id="SonarQube" order="13" weight="0.3290461" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -389,31 +427,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/model/day1/player/Game.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="100" selection-start-line="3" selection-start-column="100" selection-end-line="3" selection-end-column="100" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/Main.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/model/day1/player/Arcade.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/model/day1/game/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/model/day1/parser/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
@@ -421,33 +435,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/model/day1/company/Product.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/model/day1/player/Score.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/model/restaurant/Zamowienie.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/model/restaurant/Zamowienie.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/model/day2/coffeshop/Coffee.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -513,27 +501,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/model/coffeshop/CoffeOrder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/model/coffeshop/CoffeOrder.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/model/day2/coffeshop/CoffeeBeanType.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/model/day1/player/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="852">
-          <caret line="1136" column="74" selection-start-line="1136" selection-start-column="74" selection-end-line="1136" selection-end-column="74" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -550,14 +522,85 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/model/day2/coffeshop/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/model/day1/game/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-735">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/model/day2/modelowanie/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="34" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
+        <state relative-caret-position="330">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/model/day1/player/Arcade.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="24" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/model/day1/player/Score.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/util/Comparator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="107" column="4" selection-start-line="107" selection-start-column="4" selection-end-line="107" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/model/day1/player/Game.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="100" selection-start-line="3" selection-start-column="100" selection-end-line="3" selection-end-column="100" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/model/day1/player/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="597">
+          <caret line="1161" column="27" selection-start-line="1161" selection-start-column="27" selection-end-line="1161" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/model/day1/company/Product.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/model/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

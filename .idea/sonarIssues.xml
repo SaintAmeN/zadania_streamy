@@ -8,6 +8,21 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../javagda25/collections_benchmark/src/main/java/com/j25/collections/MainGeneric.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../javagda25/collections_benchmark/src/main/java/com/j25/collections/MyLinkedList.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../javagda25/collections_benchmark/src/main/java/com/j25/collections/linkedlist/Wezel.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/pom.xml">
           <value>
             <set />
@@ -19,6 +34,11 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/src/main/java/com/model/Company.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/model/Main.java">
           <value>
             <set />
           </value>
@@ -114,6 +134,16 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/src/main/java/com/model/day1/company/Product.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/model/day1/player/Arcade.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/model/day1/player/Main.java">
           <value>
             <set />
           </value>
