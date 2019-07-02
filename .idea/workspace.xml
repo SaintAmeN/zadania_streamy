@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b4894e7a-cd32-46d8-9204-e93ad0674322" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/model/MapIterate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarIssues.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarIssues.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/model/day1/company/Company.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/model/day1/company/Company.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/model/day1/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/model/day1/company/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/model/day1/company/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/model/day1/company/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/model/day1/company/Purchase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/model/day1/company/Purchase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/model/day1/player/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/model/day1/player/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -24,11 +17,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/model/day1/company/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="313">
-              <caret line="512" column="5" lean-forward="true" selection-start-line="512" selection-start-column="5" selection-end-line="512" selection-end-column="5" />
+            <state relative-caret-position="423">
+              <caret line="524" column="159" selection-start-line="524" selection-start-column="159" selection-end-line="524" selection-end-column="159" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="method#company_18_mapa_kaw#0;class#Main#0" />
                 <element signature="method#company_13_najwiecej_hajsu#0;class#Main#0" />
                 <element signature="e#39292#39293#0" expanded="true" />
                 <element signature="e#39327#39328#0" expanded="true" />
@@ -65,6 +57,9 @@
       <find>walk</find>
       <find>Map.Entry</find>
       <find>2018, 1, 15</find>
+      <find>coffe, arab</find>
+      <find>coffee,</find>
+      <find>Fuel, oil</find>
     </findStrings>
     <replaceStrings>
       <replace>2018, 2, 28</replace>
@@ -238,7 +233,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1562092847616" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1562094000695" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -361,12 +356,12 @@
       <workItem from="1561994754457" duration="1780000" />
       <workItem from="1562007275329" duration="1541000" />
       <workItem from="1562081117987" duration="814000" />
-      <workItem from="1562086969593" duration="2707000" />
+      <workItem from="1562086969593" duration="3850000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32667000" />
+    <option name="totallyTimeSpent" value="33810000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -626,11 +621,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/model/day1/company/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="313">
-          <caret line="512" column="5" lean-forward="true" selection-start-line="512" selection-start-column="5" selection-end-line="512" selection-end-column="5" />
+        <state relative-caret-position="423">
+          <caret line="524" column="159" selection-start-line="524" selection-start-column="159" selection-end-line="524" selection-end-column="159" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#company_18_mapa_kaw#0;class#Main#0" />
             <element signature="method#company_13_najwiecej_hajsu#0;class#Main#0" />
             <element signature="e#39292#39293#0" expanded="true" />
             <element signature="e#39327#39328#0" expanded="true" />
