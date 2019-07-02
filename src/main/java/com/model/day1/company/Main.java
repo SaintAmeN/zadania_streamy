@@ -1,9 +1,8 @@
 package com.model.day1.company;
 
 import java.time.LocalDate;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
+import java.util.*;
+import java.util.stream.Collectors;
 
 public class Main {
     public static void main(String[] args) {
@@ -347,6 +346,7 @@ public class Main {
                 new Purchase(productFuelON, LocalDate.of(2018, 1, 15), 100, UNIT.UNIT),
                 new Purchase(productFuelGasoline, LocalDate.of(2018, 1, 30), 500, UNIT.UNIT),
                 new Purchase(productPC, LocalDate.of(2018, 1, 20), 500, UNIT.UNIT),
+                new Purchase(productSwitch, LocalDate.of(2018, 1, 20), 500, UNIT.UNIT),
                 new Purchase(productFuelGasoline, LocalDate.of(2018, 2, 15), 500, UNIT.UNIT),
                 new Purchase(productFuelON, LocalDate.of(2018, 2, 15), 100, UNIT.UNIT),
                 new Purchase(productFuelGasoline, LocalDate.of(2018, 2, 28), 500, UNIT.UNIT)
@@ -449,13 +449,15 @@ public class Main {
                 intelKij
         ));
 
-        System.out.println(companies);
+//        System.out.println(companies);
 
 // Polecenie 1:
 // Dane to Firmy oraz ich zakupy z miesiąca styczeń/luty 2018.
 
 // Wszystkie rozwiązania zapisz w oddzielnych metodach statycznych w klasie Main.
 // 1. Wylistuj (system out println) wszystkie firmy
+//        company_1_wylistuj(companies);
+
 // 2. Wylistuj wszystkie firmy które są z Detroit
 // 3. Wylistuj wszystkie firmy z Londynu, posortuj je po ilości pracowników (rosnąco).
 // 4. Wylistuj wszystkie firmy z Warszawy. Posortuj je po ilości zakupów (rosnąco) i ilości pracowników (malejąco).
@@ -466,13 +468,18 @@ public class Main {
 // 9. ** Zwróć MAPĘ w której kluczem jest nazwa firmy, a wartością ilość pracowników w tej firmie (https://howtodoinjava.com/java8/collect-stream-to-map/)
 // 10.** Zwróć Mapę w której kluczem jest miejscowość a wartością jest LISTA FIRM z tamtej miejscowości (Map<String, List<Company>) (https://stackoverflow.com/questions/24917053/collecting-hashmapstring-liststring-java-8)
 // 11. Zwróć firmę która dokonała zakupów na największą kwotę
+//        company_11_zakupy_najwieksze(companies);
 // 12. Zwróć firmę która kupiła najwięcej produktów za kwotę wyższą niż 10 k
+//        company_12_zakupy_10k(companies);
 // 13. *Zwróć miejscowość która wydała najwięcej pieniędzy. Stwórz mapę Map<String, Double> gdzie kluczem jest miejscowość, a wartością jest kwota wydana przez firmy pochodzące z tamtej miejscowości
+//        company_13_najwiecej_hajsu(companies);
 // 14. Wypisz firmy które 15 stycznia 2018 kupiły "Network Switch"
+        company_14_network(companies);
 // 15. Znajdź firmę która kupuje najwięcej kawy
 // 16. Wypisz ile łącznie zostało kupionej kawy Arabica w miesiącu styczniu
 // 17. Wypisz ile łącznie kawy (Arabica i Roubsta) zostało kupionej w dni parzyste.
 // 18. Zwróć Mapę (Map<Product, Set<Company>>) w której kluczem jest typ kawy (powinny być dwie, Arabica i Robusta) i wartością są listy firm które kupiły podaną kawę chociaż raz.
+//        company_18_mapa_kaw(companies);
 // 19. Zwróć firmę która w styczniu kupiła najwięcej paliwa (ropy)
 // 20. Zwróć firmę której proporcja wydanych pieniędzy do ilości pracowników jest najwyższa
 // 21. Zwróć firmę która najwięcej wydaje na artykuły biurowe
@@ -496,5 +503,66 @@ public class Main {
 // 39. Wypisz jaki produkt poza paliwem cieszy się największą popularnością (zwróć go) (find first)
 // 40. Znajdź produkty które były kupowane zarówno w kilogramach jak i w sztukach
 // 40. Wymyśl 5 ciekawych zapytań i spróbuj je zrealizować. Najciekawsze polecenie otrzyma nagrodę-niespodziankę z Baltimore :P
+    }
+
+    private static void company_14_network(List<Company> companies) {
+        companies
+                .stream()
+                .filter(c -> c.getPurchaseList().stream().anyMatch(p -> p.getPurchaseDate().isEqual(LocalDate.of(2018, 1, 15)) && p.getProduct().getName().equalsIgnoreCase("network switch")))
+                .forEach(c -> System.out.println(c.getName() +  " " + c.getCityHeadquarters()));
+    }
+
+    private static void company_18_mapa_kaw(List<Company> companies) {
+        Set<Product> products = companies.stream()
+                .map(comp -> comp.getPurchaseList())
+                .flatMap(purchases -> purchases.stream())
+                .map(purchase -> purchase.getProduct())
+                .filter(product -> product.getName().startsWith("Coffee,"))
+                .collect(Collectors.toSet()); // typy kawy
+
+        Map<Product, Set<Company>> companiesWhoDrinkCoffee = products.stream()
+                .collect(Collectors.toMap(
+                        product -> product,
+                        product -> companies.stream() // dla produktu, sprawdz czy
+                                .filter(company -> company.getPurchaseList().stream() // w liscie znajduje produkt o tej nazwie
+                                        .anyMatch(purchase -> purchase.getProduct() == product)).collect(Collectors.toSet())));
+
+
+        System.out.println(companiesWhoDrinkCoffee);
+    }
+
+    private static void company_13_najwiecej_hajsu(List<Company> companies) {
+        /*Map<String, Double> wydanehajsy = */
+        Set<String> miescowosci = companies.stream().map(company -> company.getCityHeadquarters()).collect(Collectors.toSet());
+
+        Map<String,Double> wydanehajsy = miescowosci.stream().collect(Collectors.toMap(
+                m -> m,
+                m -> companies.stream()
+                        .filter(company -> company.getCityHeadquarters().equals(m))
+                        .mapToDouble(c ->
+                                c.getPurchaseList().stream().mapToDouble(p -> p.getQuantity() * p.getProduct().getPrice()).sum()).sum()));
+
+        System.out.println(wydanehajsy);
+    }
+
+    private static void company_12_zakupy_10k(List<Company> companies) {
+        Optional<Company> firma = companies.stream()
+                .max(Comparator.comparingDouble(
+                        company -> company.getPurchaseList().stream()
+                                .filter(purchase -> purchase.getProduct().getPrice() > 10000)
+                                .mapToDouble(purchase -> purchase.getQuantity()).sum()));
+        System.out.println(firma);
+    }
+
+    private static void company_11_zakupy_najwieksze(List<Company> companies) {
+        Optional<Company> firma = companies.stream()
+                .max(Comparator.comparingDouble(
+                        company -> company.getPurchaseList().stream()
+                                .mapToDouble(purchase -> purchase.getQuantity() * purchase.getProduct().getPrice()).sum()));
+        System.out.println(firma);
+    }
+
+    private static void company_1_wylistuj(List<Company> companies) {
+        companies.forEach(System.out::println);
     }
 }

@@ -2,23 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b4894e7a-cd32-46d8-9204-e93ad0674322" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/model/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/model/MapIterate.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarIssues.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarIssues.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/model/day1/player/Arcade.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/model/day1/player/Arcade.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/model/day1/company/Company.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/model/day1/company/Company.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/model/day1/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/model/day1/company/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/model/day1/company/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/model/day1/company/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/model/day1/company/Purchase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/model/day1/company/Purchase.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/model/day1/player/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/model/day1/player/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/model/company/Company.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/model/company/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/model/company/Product.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/model/company/Purchase.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/model/company/UNIT.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/model/game/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/model/parser/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/model/player/Arcade.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/model/player/Game.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/model/player/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/model/player/Score.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -31,24 +22,16 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/model/Main.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/model/day1/company/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="313">
+              <caret line="512" column="5" lean-forward="true" selection-start-line="512" selection-start-column="5" selection-end-line="512" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/model/day1/company/Product.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="25" selection-start-line="25" selection-end-line="25" />
-              <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="method#company_18_mapa_kaw#0;class#Main#0" />
+                <element signature="method#company_13_najwiecej_hajsu#0;class#Main#0" />
+                <element signature="e#39292#39293#0" expanded="true" />
+                <element signature="e#39327#39328#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -80,10 +63,13 @@
       <find>TRUE</find>
       <find>comparingby</find>
       <find>walk</find>
+      <find>Map.Entry</find>
+      <find>2018, 1, 15</find>
     </findStrings>
     <replaceStrings>
       <replace>2018, 2, 28</replace>
       <replace>coffee</replace>
+      <replace>Entry</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -122,8 +108,13 @@
         <option value="$PROJECT_DIR$/src/main/java/com/model/modelowanie/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/model/day2/modelowanie/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/model/day1/player/Arcade.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/model/day1/player/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/model/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/model/day1/player/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/model/MapIterate.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/model/day1/company/Company.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/model/day1/company/Purchase.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/model/day1/company/Product.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/model/day1/company/Main.java" />
       </list>
     </option>
   </component>
@@ -135,10 +126,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="2258" />
-    <option name="y" value="193" />
-    <option name="width" value="1914" />
-    <option name="height" value="1050" />
+    <option name="x" value="1919" />
+    <option name="width" value="1922" />
+    <option name="height" value="1200" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -241,14 +231,14 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1561307438797" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1562092847616" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -276,13 +266,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main (1)">
+  <component name="RunManager" selected="Application.Main (2)">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.model.day1.player.Main" />
       <module name="company" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.model.day1.player.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.model.day1.company.Main" />
+      <module name="company" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.model.day1.company.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -331,6 +334,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
       </list>
@@ -352,11 +356,17 @@
       <workItem from="1561184375081" duration="1289000" />
       <workItem from="1561304925915" duration="3112000" />
       <workItem from="1561563884455" duration="878000" />
+      <workItem from="1561575154677" duration="1005000" />
+      <workItem from="1561650188327" duration="399000" />
+      <workItem from="1561994754457" duration="1780000" />
+      <workItem from="1562007275329" duration="1541000" />
+      <workItem from="1562081117987" duration="814000" />
+      <workItem from="1562086969593" duration="2707000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24421000" />
+    <option name="totallyTimeSpent" value="32667000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -368,19 +378,22 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1919" y="0" width="1922" height="1080" extended-state="6" />
+    <frame x="1919" y="0" width="1922" height="1200" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2625133" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.28331527" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="JProfiler" />
+      <window_info anchor="bottom" auto_hide="true" id="IntelliHeap" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3290461" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3290461" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39978564" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32838774" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39861524" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3290461" />
@@ -410,16 +423,6 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/model/player/Player.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/model/day1/company/Purchase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/model/day1/company/UNIT.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -450,26 +453,6 @@
           <folding>
             <element signature="e#138#139#0" expanded="true" />
             <element signature="e#163#164#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/model/day1/company/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="471" column="40" selection-start-line="471" selection-start-column="40" selection-end-line="471" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/model/day1/company/Company.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -574,20 +557,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/model/day1/player/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/model/day1/company/Company.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="597">
-          <caret line="1161" column="27" selection-start-line="1161" selection-start-column="27" selection-end-line="1161" selection-end-column="27" />
+        <state relative-caret-position="189">
+          <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/model/day1/company/Product.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/model/day1/company/Purchase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        <state relative-caret-position="189">
+          <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/model/day1/player/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="721">
+          <caret line="1126" selection-start-line="1126" selection-end-line="1126" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -596,10 +589,51 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/model/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
+        <state relative-caret-position="270">
           <caret line="10" selection-start-line="10" selection-end-line="10" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/model/MapIterate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/model/day1/company/Product.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/util/stream/Collectors.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="1319" selection-start-line="1319" selection-end-line="1319" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/model/day1/company/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="313">
+          <caret line="512" column="5" lean-forward="true" selection-start-line="512" selection-start-column="5" selection-end-line="512" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#company_18_mapa_kaw#0;class#Main#0" />
+            <element signature="method#company_13_najwiecej_hajsu#0;class#Main#0" />
+            <element signature="e#39292#39293#0" expanded="true" />
+            <element signature="e#39327#39328#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -3,6 +3,7 @@ package com.model.day1.player;
 import java.util.*;
 import java.util.function.Function;
 import java.util.stream.Collectors;
+import java.util.Map.*;
 
 public class Main {
     public static void main(String[] args) {
@@ -1122,15 +1123,19 @@ public class Main {
         ));
 //        System.out.println(arcades);
 
+        int liczba = 147;
+
+        Optional<Arcade> arcadeResult = arcades.stream().filter(arcade -> arcade.getScoreList().size() == liczba).findFirst();
+
         // 3. Znadjź i zwróć automat który ma najwięcej zapisanych wyników z gry Mario
-        Optional<Map.Entry<Arcade, Long>> maxArcadeOptional = arcades.
+        Optional<Entry<Arcade, Long>> maxArcadeOptional = arcades.
                 stream()
                 .collect(Collectors.toMap((arcade) -> arcade, arcade ->
                         arcade.getScoreList().stream().filter(score -> score.getGame() == Game.MARIO).count()))
-                .entrySet().stream().max(Map.Entry.comparingByValue());
+                .entrySet().stream().max(Entry.comparingByValue());
 
         if (maxArcadeOptional.isPresent()) {
-            Map.Entry<Arcade, Long> arcadeLongEntry = maxArcadeOptional.get();
+            Entry<Arcade, Long> arcadeLongEntry = maxArcadeOptional.get();
             System.out.println();
             System.out.println(arcadeLongEntry.getKey().getName() + " miała :" + arcadeLongEntry.getValue() + " wpisów");
         }
@@ -1161,8 +1166,8 @@ public class Main {
                 .collect(Collectors.groupingBy(Function.identity(), Collectors.counting()))
                 .entrySet()
                 .stream()
-                .sorted(Map.Entry.comparingByValue())
-                .collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue, (e1, e2) -> e2, LinkedHashMap::new));
+                .sorted(Entry.comparingByValue())
+                .collect(Collectors.toMap(Entry::getKey, Entry::getValue, (e1, e2) -> e2, LinkedHashMap::new));
 
         System.out.println();
         System.out.println("Liczność wystąpień:");
