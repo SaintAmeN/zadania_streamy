@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b4894e7a-cd32-46d8-9204-e93ad0674322" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/model/day1/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/model/day1/company/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/model/day1/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/model/day1/company/Main.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -17,13 +19,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/model/day1/company/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="423">
-              <caret line="524" column="159" selection-start-line="524" selection-start-column="159" selection-end-line="524" selection-end-column="159" />
+            <state relative-caret-position="287">
+              <caret line="503" column="45" lean-forward="true" selection-start-line="503" selection-start-column="45" selection-end-line="503" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#company_13_najwiecej_hajsu#0;class#Main#0" />
-                <element signature="e#39292#39293#0" expanded="true" />
-                <element signature="e#39327#39328#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -60,6 +60,9 @@
       <find>coffe, arab</find>
       <find>coffee,</find>
       <find>Fuel, oil</find>
+      <find>Comparator.reverseOrder()</find>
+      <find>scisors</find>
+      <find>apple</find>
     </findStrings>
     <replaceStrings>
       <replace>2018, 2, 28</replace>
@@ -233,7 +236,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1562094000695" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1562173661313" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -357,11 +360,12 @@
       <workItem from="1562007275329" duration="1541000" />
       <workItem from="1562081117987" duration="814000" />
       <workItem from="1562086969593" duration="3850000" />
+      <workItem from="1562168542554" duration="5115000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33810000" />
+    <option name="totallyTimeSpent" value="38925000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -373,7 +377,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1919" y="0" width="1922" height="1200" extended-state="6" />
+    <frame x="1919" y="0" width="1922" height="1080" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.28331527" />
@@ -383,12 +387,10 @@
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="JProfiler" />
-      <window_info anchor="bottom" auto_hide="true" id="IntelliHeap" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3290461" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32838774" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39861524" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32772166" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39842874" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3290461" />
@@ -399,6 +401,8 @@
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.3290461" />
       <window_info anchor="bottom" id="SonarQube" order="13" weight="0.3290461" />
+      <window_info anchor="bottom" id="JProfiler" order="14" />
+      <window_info anchor="bottom" auto_hide="true" id="IntelliHeap" order="15" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -621,13 +625,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/model/day1/company/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="423">
-          <caret line="524" column="159" selection-start-line="524" selection-start-column="159" selection-end-line="524" selection-end-column="159" />
+        <state relative-caret-position="287">
+          <caret line="503" column="45" lean-forward="true" selection-start-line="503" selection-start-column="45" selection-end-line="503" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#company_13_najwiecej_hajsu#0;class#Main#0" />
-            <element signature="e#39292#39293#0" expanded="true" />
-            <element signature="e#39327#39328#0" expanded="true" />
           </folding>
         </state>
       </provider>
