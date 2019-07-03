@@ -4,7 +4,6 @@
     <list default="true" id="b4894e7a-cd32-46d8-9204-e93ad0674322" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/model/day1/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/model/day1/company/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/model/day1/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/model/day1/company/Main.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -19,8 +18,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/model/day1/company/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="287">
-              <caret line="503" column="45" lean-forward="true" selection-start-line="503" selection-start-column="45" selection-end-line="503" selection-end-column="45" />
+            <state relative-caret-position="178">
+              <caret line="527" column="46" lean-forward="true" selection-start-line="527" selection-start-column="46" selection-end-line="527" selection-end-column="46" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#company_13_najwiecej_hajsu#0;class#Main#0" />
@@ -134,6 +133,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -229,14 +230,12 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1562173661313" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1562175682734" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -360,12 +359,12 @@
       <workItem from="1562007275329" duration="1541000" />
       <workItem from="1562081117987" duration="814000" />
       <workItem from="1562086969593" duration="3850000" />
-      <workItem from="1562168542554" duration="5115000" />
+      <workItem from="1562168542554" duration="7067000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38925000" />
+    <option name="totallyTimeSpent" value="40877000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -389,7 +388,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3290461" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32772166" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32772166" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39842874" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -625,8 +624,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/model/day1/company/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="503" column="45" lean-forward="true" selection-start-line="503" selection-start-column="45" selection-end-line="503" selection-end-column="45" />
+        <state relative-caret-position="178">
+          <caret line="527" column="46" lean-forward="true" selection-start-line="527" selection-start-column="46" selection-end-line="527" selection-end-column="46" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#company_13_najwiecej_hajsu#0;class#Main#0" />

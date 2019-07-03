@@ -502,8 +502,11 @@ public class Main {
 // 27. *Wypisz "Nazwa firmy: XYZ, ilość zakupionych telefonów apple: X" dla każdej firmy która kupiła telefon apple. Wypisy powinny być posortowane (na szczycie powinna być firma która kupiła ich najwięcej).
 //        company_27_apple_lovers(companies);
 // 28. Znajdź firme która posiada siedzibę w więcej niż jednym mieście. Posortuj firmy po ilości siedzib, wypisz tylko te które mają więcej niż 1 siedzibę.
+//        company_28_rich_multi_city_companies(companies);
 // 29. Wypisz ilość kilogramów cukru zużywaną przez "Detroit Bakery"
+//        company_29_detroit_bakery(companies);
 // 30. Wypisz wszystkie zakupy firmy "Solwit".
+        company_30_solwit_shopping(companies);
 // 31. Wypisz wszystkie produkty które są tańsze (jednostkowo) niż 3$.
 // 32. Wypisz ile sprzedano najtańszego produktu
 // 33. Firma "Take me home" zajmuje się transportem. Na początku działalności kupiła wiele samochodów do użytku. Oblicz ile litrów paliwa (średnio) spalają ich samochody (zakładamy że wszystkie palą benzynę i że tankowane są wszystkie.
@@ -515,6 +518,63 @@ public class Main {
 // 39. Wypisz jaki produkt poza paliwem cieszy się największą popularnością (zwróć go) (find first)
 // 40. Znajdź produkty które były kupowane zarówno w kilogramach jak i w sztukach
 // 40. Wymyśl 5 ciekawych zapytań i spróbuj je zrealizować. Najciekawsze polecenie otrzyma nagrodę-niespodziankę z Baltimore :P
+    }
+
+    private static void company_30_solwit_shopping(List<Company> companies) {
+        companies
+                .stream()
+                .filter(c -> c.getName().equalsIgnoreCase("solwit"))
+                .flatMap(c -> c.getPurchaseList().stream())
+                .forEach(System.out::println);
+    }
+
+    private static void company_29_detroit_bakery(List<Company> companies) {
+        double sum = companies
+                .stream()
+                .filter(c -> c.getName().equalsIgnoreCase("Detroit Bakery"))
+                .mapToDouble(c -> c.getPurchaseList()
+                        .stream()
+                        .filter(p -> p.getProduct().getName().equalsIgnoreCase("sugar"))
+                        .mapToDouble(Purchase::getQuantity)
+                        .sum())
+                .sum();
+
+        System.out.println("Sum of sugar used by Detroit Bakery equals: " + sum);
+    }
+
+    private static void company_28_rich_multi_city_companies(List<Company> companies) {
+//        Map<String, List<String>> companyIntegerMap = companies
+//                .stream()
+//                .collect(Collectors.groupingBy(
+//                        c -> c.getName(),
+//                        Collectors.mapping(c -> c.getCityHeadquarters(), Collectors.toList())))
+//                .entrySet()
+//                .stream()
+//                .sorted(Map.Entry.comparingByValue(Comparator.comparingDouble(value -> value.size())))
+//                .collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue, (e1, e2) -> e1, LinkedHashMap::new));
+//        companyIntegerMap
+//                .entrySet()
+//                .stream()
+//                .filter(stringListEntry -> stringListEntry.getValue().size() > 1)
+//                .forEach(stringListEntry -> System.out.println("Firma: " + stringListEntry.getKey() + " " + stringListEntry.getValue().size()));
+
+
+        Map<String, Long> companyIntegerMap = companies
+                .stream()
+                .collect(Collectors.toMap(
+                        c -> c.getName(),
+                        c -> companies
+                                .stream()
+                                .filter(company -> company.getName().equalsIgnoreCase(c.getName()))
+                                .map(Company::getCityHeadquarters).count(),
+                        (o, o2) -> (o)
+                ));
+
+        companyIntegerMap
+                .entrySet()
+                .stream()
+                .filter(stringLongEntry -> stringLongEntry.getValue() > 1)
+                .forEach(stringLongEntry -> System.out.println(stringLongEntry.getKey() + " " + stringLongEntry.getValue()));
     }
 
     private static void company_27_apple_lovers(List<Company> companies) {
